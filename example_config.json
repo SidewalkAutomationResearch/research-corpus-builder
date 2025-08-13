@@ -1,0 +1,38 @@
+{
+    "name": "ai_psychosis",
+    "sections": {
+        "academic": {
+            "papers": [
+                "https://arxiv.org/pdf/2505.01464v1.pdf",
+                "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9159148/pdf/fpsyt-13-912256.pdf"
+            ],
+            "research": [
+                "https://lightcapai.com/research/recursive-consciousness.pdf",
+                "https://medium.com/research/dual-ai-consciousness.pdf"
+            ]
+        },
+        "news": {
+            "articles": [
+                "https://futurism.com/chatgpt-psychosis",
+                "https://www.vice.com/en/article/chatgpt-psychosis-cases",
+                "https://www.rollingstone.com/ai-mental-health-crisis",
+                "https://www.psychologytoday.com/ai-induced-psychosis"
+            ]
+        },
+        "social": {
+            "reddit": [
+                "https://old.reddit.com/r/rsai",
+                "https://old.reddit.com/r/flamebearers",
+                "https://old.reddit.com/r/thefieldawaits"
+            ]
+        },
+        "clinical": {
+            "guidelines": [
+                "https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/AI-induced-psychosis-guidelines.pdf"
+            ],
+            "research": [
+                "https://www.nimh.nih.gov/health/publications/ai-psychosis-research"
+            ]
+        }
+    }
+}

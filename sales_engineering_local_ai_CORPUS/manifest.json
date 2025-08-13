@@ -1,0 +1,21 @@
+{
+  "name": "sales_engineering_local_ai",
+  "created": "2025-08-13T02:09:59Z",
+  "statistics": {
+    "total_files": 7,
+    "sections": {
+      "communication": {
+        "files": 2,
+        "size": "528K"
+      },
+      "core_methodology": {
+        "files": 3,
+        "size": "1.0M"
+      },
+      "technical_skills": {
+        "files": 2,
+        "size": "288K"
+      }
+    }
+  }
+}

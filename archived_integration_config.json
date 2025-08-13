@@ -1,0 +1,22 @@
+{
+  "name": "archived_research_integration",
+  "sections": {
+    "autoimmune_research": {
+      "clinical_guidelines": [
+        "/Users/willeddy/LLM_WORKSPACES/Personal_Research_Workspace/ARCHIVED_RESEARCH_2025_08_13/Autoimmune_Research/clinical_guidelines/"
+      ],
+      "research_papers": [
+        "/Users/willeddy/LLM_WORKSPACES/Personal_Research_Workspace/ARCHIVED_RESEARCH_2025_08_13/Autoimmune_Research/research/general_neuroimmunology/"
+      ]
+    },
+    "mft_research": {
+      "academic_papers": [
+        "/Users/willeddy/LLM_WORKSPACES/Personal_Research_Workspace/ARCHIVED_RESEARCH_2025_08_13/MFT_Research/academic/verified/"
+      ],
+      "professional_resources": [
+        "/Users/willeddy/LLM_WORKSPACES/Personal_Research_Workspace/ARCHIVED_RESEARCH_2025_08_13/MFT_Research/professional/verified/"
+      ]
+    }
+  },
+  "target_corpus": "/Users/willeddy/LLM_WORKSPACES/Personal_Research_Workspace/DFA_SUITE/04 - Research Corpus/INTEGRATED_ARCHIVES"
+}

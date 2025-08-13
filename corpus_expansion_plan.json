@@ -1,0 +1,61 @@
+{
+  "expansion_plan": {
+    "phase_1_immediate": {
+      "priority": "high",
+      "target_sections": [
+        "ai_psychosis_CORPUS",
+        "PSYCHOSIS_CORPUS", 
+        "INTEGRATED_ARCHIVES"
+      ],
+      "expansion_method": "reference_extraction",
+      "download_limit": 30,
+      "rationale": "These sections have fewer references extracted, high potential for clinical/research expansion"
+    },
+    "phase_2_voice_research": {
+      "priority": "medium", 
+      "target_sections": [
+        "Voice"
+      ],
+      "expansion_method": "selective_reference_extraction",
+      "download_limit": 20,
+      "rationale": "Large existing collection, focus on academic papers only"
+    },
+    "phase_3_asi_architecture": {
+      "priority": "medium",
+      "target_sections": [
+        "ASI-arch"
+      ], 
+      "expansion_method": "reference_extraction",
+      "download_limit": 25,
+      "rationale": "Specialized domain, expand core research foundation"
+    },
+    "phase_4_comprehensive": {
+      "priority": "low",
+      "target_sections": ["AI_SAFETY_CORPUS"],
+      "expansion_method": "deep_reference_chains", 
+      "download_limit": 50,
+      "rationale": "Already expanded once, focus on second-degree references"
+    }
+  },
+  "execution_strategy": {
+    "model": "qwen-research",
+    "processing_mode": "local_ai",
+    "batch_size": 10,
+    "rate_limiting": "0.5s_between_downloads",
+    "error_handling": "continue_on_failure",
+    "deduplication": "enabled",
+    "file_types": [".pdf", ".txt", ".md"]
+  },
+  "success_criteria": {
+    "minimum_new_papers": 75,
+    "maximum_failures": 25,
+    "target_total_corpus_size": "2000+_files",
+    "completion_time": "under_30_minutes"
+  },
+  "quality_control": {
+    "verify_downloads": true,
+    "check_file_sizes": "min_10kb",
+    "validate_metadata": true,
+    "track_sources": true
+  }
+}

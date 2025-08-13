@@ -1,0 +1,99 @@
+{
+  "execution_summary": {
+    "start_time": 1755058288.3948889,
+    "phases_completed": [
+      "phase_1_immediate",
+      "phase_2_voice_research",
+      "phase_3_asi_architecture",
+      "phase_4_comprehensive"
+    ],
+    "total_downloads": 91,
+    "total_failures": 0,
+    "errors": [],
+    "end_time": 1755058633.848504,
+    "total_duration": 345.45361518859863
+  },
+  "phase_results": [
+    {
+      "phase": "phase_1_immediate",
+      "start_time": 1755058288.42006,
+      "sections_processed": [
+        {
+          "section": "ai_psychosis_CORPUS",
+          "downloads": 0,
+          "status": "success"
+        },
+        {
+          "section": "PSYCHOSIS_CORPUS",
+          "downloads": 0,
+          "status": "success"
+        },
+        {
+          "section": "INTEGRATED_ARCHIVES",
+          "downloads": 0,
+          "status": "success"
+        }
+      ],
+      "downloads": 0,
+      "failures": 0,
+      "success": false,
+      "end_time": 1755058296.5781178,
+      "duration": 8.158057928085327
+    },
+    {
+      "phase": "phase_2_voice_research",
+      "start_time": 1755058296.578331,
+      "sections_processed": [
+        {
+          "section": "Voice",
+          "downloads": 20,
+          "status": "success"
+        }
+      ],
+      "downloads": 20,
+      "failures": 0,
+      "success": true,
+      "end_time": 1755058331.91347,
+      "duration": 35.33513903617859
+    },
+    {
+      "phase": "phase_3_asi_architecture",
+      "start_time": 1755058331.913694,
+      "sections_processed": [
+        {
+          "section": "ASI-arch",
+          "downloads": 21,
+          "status": "success"
+        }
+      ],
+      "downloads": 21,
+      "failures": 0,
+      "success": true,
+      "end_time": 1755058354.26468,
+      "duration": 22.350986003875732
+    },
+    {
+      "phase": "phase_4_comprehensive",
+      "start_time": 1755058354.264874,
+      "sections_processed": [
+        {
+          "section": "AI_SAFETY_CORPUS",
+          "downloads": 50,
+          "status": "success"
+        }
+      ],
+      "downloads": 50,
+      "failures": 0,
+      "success": true,
+      "end_time": 1755058633.848178,
+      "duration": 279.58330392837524
+    }
+  ],
+  "success_criteria_met": {
+    "minimum_new_papers": true,
+    "maximum_failures": true,
+    "completion_time": true,
+    "overall_success": true
+  },
+  "timestamp": "2025-08-13 00:17:13"
+}
