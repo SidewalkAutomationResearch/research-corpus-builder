@@ -7,6 +7,8 @@
 
 Complete toolkit for building, expanding, and managing research corpora with local AI integration. Designed for academic research, AI safety studies, and interdisciplinary analysis.
 
+> **💡 Companion Tool**: For local AI operations and model management, see [Local AI Integration Module](https://github.com/SidewalkAutomationResearch/local-ai-integration) - unified interface for Ollama models with research corpus integration.
+
 ## Features
 
 - **Automated Reference Expansion**: Extract and download papers from citations
@@ -18,11 +20,24 @@ Complete toolkit for building, expanding, and managing research corpora with loc
 
 ## Quick Start
 
+### 📦 Download Self-Contained Package
+
+**Option 1: Direct ZIP Download**
+- [Download Latest Release (ZIP)](https://github.com/SidewalkAutomationResearch/research-corpus-builder/archive/refs/heads/main.zip) - Complete self-contained folder
+- Extract anywhere and use immediately
+- No installation required beyond Python dependencies
+
+**Option 2: Git Clone**
+```bash
+git clone https://github.com/SidewalkAutomationResearch/research-corpus-builder.git
+cd research-corpus-builder
+```
+
 ### Installation
 
 ```bash
-# Clone or copy the CORPUS-BUILDER-MODULE directory
-cd CORPUS-BUILDER-MODULE
+# Navigate to extracted/cloned directory
+cd research-corpus-builder  # or extracted folder name
 
 # Install dependencies
 pip install -r requirements.txt
