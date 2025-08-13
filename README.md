@@ -76,6 +76,13 @@ python corpus_summarizer.py ../ --model qwen-research
 
 # Integrate archives
 python archive_integrator.py archived_integration_config.json
+
+# Archive topic script
+python git_integration.py --archive-script "./analysis.py" --topic "ai-safety" --description "Analysis script"
+
+# Archive improvements and push for review
+python git_integration.py --archive-improvement "new-feature" --files "file1.py" "file2.py"
+python git_integration.py --push-archives --description "Monthly improvements"
 ```
 
 ## Core Components
@@ -150,6 +157,32 @@ from execute_expansion_plan import CorpusExpansionExecutor
 
 executor = CorpusExpansionExecutor("plan.json", "corpus_path")
 results = executor.execute_expansion_plan()
+```
+
+### 5. Git Integration (`git_integration.py`)
+Enables users to archive topic scripts and push improvements for owner approval.
+
+**Features:**
+- Topic script archiving
+- Module improvement archiving
+- Automated git workflow for contributions
+- Owner approval process integration
+- Development history preservation
+
+**Usage:**
+```python
+from git_integration import GitIntegration
+
+git = GitIntegration()
+
+# Archive topic-related script
+git.archive_topic_script("analysis.py", "ai-safety", "Safety analysis script")
+
+# Archive improvements
+git.archive_improvement(["new_feature.py"], "enhancement", "Added new functionality")
+
+# Push for owner review
+git.commit_and_push_archives("Monthly improvements update")
 ```
 
 ## Configuration
