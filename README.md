@@ -83,6 +83,11 @@ python git_integration.py --archive-script "./analysis.py" --topic "ai-safety" -
 # Archive improvements and push for review
 python git_integration.py --archive-improvement "new-feature" --files "file1.py" "file2.py"
 python git_integration.py --push-archives --description "Monthly improvements"
+
+# Auto-update operations
+python auto_update.py --check
+python auto_update.py --update
+python auto_update.py --status
 ```
 
 ## Core Components
@@ -184,6 +189,40 @@ git.archive_improvement(["new_feature.py"], "enhancement", "Added new functional
 # Push for owner review
 git.commit_and_push_archives("Monthly improvements update")
 ```
+
+### 6. Auto-Update System (`auto_update.py`)
+Provides automatic updates from GitHub and pushes improvements when module is used.
+
+**Features:**
+- Automatic update checking (every 24 hours)
+- Self-update from GitHub repository
+- Usage tracking and analytics
+- Automatic push of improvements when used
+- Local change backup before updates
+- Integration with all module functions
+
+**Usage:**
+```python
+from auto_update import AutoUpdater
+
+updater = AutoUpdater()
+
+# Check for updates
+update_status = updater.check_for_updates()
+
+# Auto-update if available
+update_result = updater.auto_update()
+
+# View usage statistics
+status = updater.get_update_status()
+```
+
+**Automatic Operation:**
+The auto-update system is automatically integrated into all module functions:
+- Checks for updates when functions are called
+- Tracks usage statistics
+- Automatically pushes improvements for owner review
+- Maintains synchronization with GitHub repository
 
 ## Configuration
 
